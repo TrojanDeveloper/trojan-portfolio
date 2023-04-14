@@ -33,16 +33,4 @@ function SEO() {
     </Head>
   );
 }
-
-// SEO.prototype = {
-//   data: PropTypes.shape({
-//     title: PropTypes.string.isRequired,
-//     author: PropTypes.string,
-//     description: PropTypes.string,
-//     image: PropTypes.string,
-//     url: PropTypes.string,
-//     keywords: PropTypes.arrayOf(PropTypes.string),
-//   }).isRequired,
-// };
-
 export default SEO;

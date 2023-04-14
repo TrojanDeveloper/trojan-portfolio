@@ -3,8 +3,10 @@ import { greetings } from '../portfolio';
 import { Button, Container, Row, Col } from 'reactstrap';
 import GreetingLottie from '../components/DisplayLottie';
 import SocialLinks from '../components/SocialLinks';
+import { GithubUserType } from '../types';
 
-const Greetings = () => {
+
+const Greetings = ({ name }: GithubUserType) => {
   useEffect(() => {
     document.documentElement.scrollTop = 0;
     document.scrollingElement!.scrollTop = 0;
@@ -30,7 +32,7 @@ const Greetings = () => {
               <Row>
                 <Col lg="6">
                   <h1 className="display-3 text-white">
-                    {greetings.title + ' '}
+                    {'Hi all, I\'m ' + name + ' '}
                   </h1>
                   <p className="lead text-white">{greetings.description}</p>
                   <SocialLinks />

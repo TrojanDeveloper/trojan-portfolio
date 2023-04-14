@@ -12,27 +12,27 @@ import {
 } from './types/sections';
 
 export const greetings: GreetingsType = {
-  name: 'Hanzla Tauqeer',
-  title: "Hi all, I'm Hanzla",
+  name: "TROJAN",
+  title: `Hi all, I'm Trojan`,
   description:
     "I'm passionate Full Stack web developer having an experience of web applications with Python, Django, React.js, Next.js and Blockchain development on Ethereum, Solidity, Web3.js, Moralis, and Brownie Framework.",
   resumeLink:
-    'https://docs.google.com/document/d/1_4RIfbyt4FFHW_bNplnoINQr01neTu7XDeeUlT_2O_k/edit?usp=sharing',
+    'https://docs.google.com/document/d/14P778nHnIp2u9kkf0pGl5-H-jZW5dY-g/edit',
 };
 
 export const openSource = {
-  githubUserName: '1hanzla100',
+  githubUserName: 'trojandeveloper',
 };
 
 export const contact = {};
 
 export const socialLinks: SocialLinksType = {
-  url: 'https://1hanzla100.github.io/',
-  linkedin: 'https://www.linkedin.com/in/1hanzla100/',
-  github: 'https://github.com/1hanzla100',
-  instagram: 'https://www.instagram.com/__hanzla100',
-  facebook: 'https://www.facebook.com/1hanzla100',
-  twitter: 'https://twitter.com/1hanzla100',
+  url: 'https://trojandeveloper.github.io/',
+  linkedin: 'https://www.linkedin.com',
+  github: 'https://github.com/trojandeveloper',
+  instagram: 'https://www.instagram.com/',
+  facebook: 'https://www.facebook.com/',
+  twitter: 'https://twitter.com/',
 };
 
 export const skillsSection: SkillsSectionType = {
@@ -210,10 +210,10 @@ export const SkillBars: SkillBarsType[] = [
 
 export const educationInfo: EducationType[] = [
   {
-    schoolName: 'Harvard University',
+    schoolName: 'Nanyang Technological University',
     subHeader: 'Master of Science in Computer Science',
     duration: 'September 2017 - April 2019',
-    desc: 'Participated in the research of XXX and published 3 papers.',
+    desc: 'Participated in the research of computer science and published 3 papers.',
     grade: 'Grade A',
     descBullets: [
       'Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit',
@@ -283,14 +283,14 @@ export const projects: ProjectType[] = [
 
 export const feedbacks: FeedbackType[] = [
   {
-    name: 'John Smith',
+    name: 'Jimmy Goyette',
     feedback:
-      'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.',
+      'Great to work with! Very responsive; very creative. Really good.',
   },
   {
-    name: 'John Smith',
+    name: 'Tremayne Reynolds',
     feedback:
-      'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.',
+      'Creative Web Expert are the best at what they do. He knew every idea we had, and even added new ideas aswell. He was as excited about this project as we were. Will definitely keep using him in the future.',
   },
 ];
 
@@ -299,19 +299,19 @@ export const showContactUs: boolean = true;
 
 // See object prototype on /types/section.ts page
 export const seoData: SEODataType = {
-  title: 'Hanzla Tauqeer',
+  title: 'Trojan Developer',
   description:
     'A passionate Full Stack Web Developer and Blockchain Developer.',
-  author: 'Hanzla Tauqeer',
+  author: 'Trojan Developer',
   image: 'https://avatars3.githubusercontent.com/u/59178380?v=4',
-  url: 'https://developer-portfolio-1hanzla100.vercel.app',
+  url: 'https://trojandev.github.io',
   keywords: [
-    'Hanzla',
-    'Hanzla Tauqeer',
-    '@1hanzla100',
-    '1hanzla100',
+    'Trojan',
+    'Trojan Developer',
+    '@1Trojan131',
+    '1Trojan131',
     'Portfolio',
-    'Hanzla Portfolio ',
-    'Hanzla Tauqeer Portfolio',
+    'Trojan Portfolio ',
+    'Trojan Developer Portfolio',
   ],
 };

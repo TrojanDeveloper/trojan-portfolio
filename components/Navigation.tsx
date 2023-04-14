@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { greetings, socialLinks } from '../portfolio';
 import Headroom from 'headroom.js';
+import { GithubUserType } from '../types';
 import {
   UncontrolledCollapse,
   NavbarBrand,
@@ -13,7 +14,7 @@ import {
   Col,
 } from 'reactstrap';
 
-const Navigation = () => {
+const Navigation = ({ name }: GithubUserType) => {
   const [collapseClasses, setCollapseClasses] = useState('');
   const onExiting = () => setCollapseClasses('collapsing-out');
 
@@ -36,7 +37,7 @@ const Navigation = () => {
           <Container>
             <NavbarBrand href="/" className="mr-lg-5">
               <h2 className="text-white" id="nav-title">
-                {greetings.name}
+                {name}
               </h2>
             </NavbarBrand>
             <button
@@ -57,7 +58,7 @@ const Navigation = () => {
                 <Row>
                   <Col className="collapse-brand" xs="6">
                     <h3 className="text-black" id="nav-title">
-                      {greetings.name}
+                      {name}
                     </h3>
                   </Col>
                   <Col className="collapse-close" xs="6">
