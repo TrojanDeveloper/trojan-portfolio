@@ -27,7 +27,7 @@ export const openSource = {
 export const contact = {};
 
 export const socialLinks: SocialLinksType = {
-  url: 'https://trojandeveloper.github.io/',
+  url: 'https://github.com/TrojanDeveloper/trojan-portfolio',
   linkedin: 'https://www.linkedin.com',
   github: 'https://github.com/trojandeveloper',
   instagram: 'https://www.instagram.com/',
@@ -213,71 +213,69 @@ export const educationInfo: EducationType[] = [
     schoolName: 'Nanyang Technological University',
     subHeader: 'Master of Science in Computer Science',
     duration: 'September 2017 - April 2019',
-    desc: 'Participated in the research of computer science and published 3 papers.',
+    desc: 'Participated in the research of computer science and published 2 papers.',
     grade: 'Grade A',
     descBullets: [
-      'Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit',
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+      'Benefits of Exercise.',
+      'Impact of Technology on our Lives',
     ],
   },
 ];
 
 export const experience: ExperienceType[] = [
   {
-    role: 'Frontend Developer',
-    company: 'Duseca Software',
+    role: 'Senior Software Engineer',
+    company: 'EPAM SYSTEMS',
     companyLogo: '/img/icons/common/dusecaSoftware.jpg',
-    date: 'Apr 2022 – Jun 2022',
-    desc: 'I worked as frontend web developer to design web based admin dashboards for mulitple apps using Django, Bootstrap, jQuery, Chart.js and some other libraries.',
-  },
-  {
-    role: 'API Engineer',
-    company: 'Duseca Software',
-    companyLogo: '/img/icons/common/dusecaSoftware.jpg',
-    date: 'Jan 2022 – Mar 2022',
-    desc: 'I worked as API Engineer on a Kale App. Kale is a community platform for the creation of social reviews based on verified transactions. I built Fully Optimized and High Performance RESTful APIs using Django, DjangoRESTFramework, PostgresSQL, JWT Authentication, AWS, Integrated Plaid APIs for Fetching Bank Transactions, Integrated Sentry for monitoring Django Server and deployed the API on Heroku Server.',
-    // descBullets: [
-    // 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
-    // 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-    // ],
+    date: 'Apr 2020 – Oct 2022',
+    desc: 'I worked as software engineer to design web based admin dashboards for mulitple apps using Django, Bootstrap, jQuery, Chart.js and some other libraries.',
   },
   {
     role: 'Full Stack Developer',
-    company: 'Bleed-AI',
+    company: 'SOFTSERVE',
     companyLogo: '/img/icons/common/bleedAI.jpg',
-    date: 'Sept 2021 - Oct 2021',
-    desc: 'Worked as django web developer to create a website in which I integrated computer vision AI model (built by the team of BleedAI) to process YouTube URLs and show Real Time processing on Website using Django Channels WebSockets , threading for running multiple instances of AI Model, jQuery for UI rendering and deployed it on Heroku server.',
+    date: 'Sept 2017 - Jan 2020',
+    desc: 'Worked as full-stack web developer to create a website in which I integrated computer vision AI model (built by the team of BleedAI) to process YouTube URLs and show Real Time processing on Website using Django Channels WebSockets , threading for running multiple instances of AI Model, jQuery for UI rendering and deployed it on Heroku server.',
   },
   {
-    role: 'Backend Developer',
-    company: 'Wapidu',
+    role: 'Web Developer',
+    company: 'TOTALCAN',
     companyLogo: '/img/icons/common/wapidu.jpg',
-    date: 'Sept 2021',
-    desc: 'Worked as a Django Developer to integrate Stripe payment gateway in wapidu.com and Created REST APIs using Django REST Framework to integrate Django Stripe backend to Vue.js Frontend and Deployed it on Azure based Docker container registry.',
+    date: 'Apr 2016 - Jun 2017',
+    desc: 'Worked as a Web Developer to integrate Stripe payment gateway in wapidu.com and Created REST APIs using Django REST Framework to integrate Django Stripe backend to Vue.js Frontend and Deployed it on Azure based Docker container registry.',
   },
 ];
 
 export const projects: ProjectType[] = [
   {
-    name: 'developer-portfolio',
-    desc: 'Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.',
-    github: 'https://github.com/1hanzla100/developer-portfolio',
-    link: 'https://developer-portfolio-1hanzla100.vercel.app/',
+    name: 'COVID Tracker',
+    desc: 'This app shows a statistical view about corona virus over the world',
+    github: 'https://github.com/TrojanDeveloper/covid-19-tracker',
+    link: 'https://covid-19-tracker-by-sumit.web.app/',
   },
   {
-    name: 'AtlasMart',
-    desc: 'With Atlas Mart, it’s easy to find the products with the best price and ship them straight to your door.',
-    github: 'https://github.com/1hanzla100/Django-React-Marketplace',
+    name: 'Realtime Chat App',
+    desc: 'Basic Realtime Chat App where one can create a room can talk to each other',
+    github: 'https://github.com/TrojanDeveloper/chat-app-socket.io-react-node',
+    link: 'https://sumit-chat.netlify.app/',
   },
   {
-    name: 'Technota (Forum)',
-    desc: 'Get hands-on experience in technical skills with Technota',
-    github: 'https://github.com/1hanzla100/django-react-forum',
+    name: 'Algorithm Visualizer',
+    desc: 'An web app which shows how an algorithm (path finding or sorting) works with cool animation',
+    github: 'https://github.com/TrojanDeveloper/algorithm-visualizer',
+    link: 'https://visual-algorithm.web.app/',
   },
   {
-    name: 'Shopaza (Ecommerce)',
-    desc: 'Now your reach to all your favorite entertainment and luxury items is just one touch apart',
-    github: 'https://github.com/1hanzla100/Django-ecommerce',
+    name: 'YouTube using YouTube',
+    desc: 'Full(almost) Functional YouTube replica where one can login with his/her youtube account to enjoy "not-YouTube".User can like a video,comment on a video & Much More',
+    github: 'https://github.com/TrojanDeveloper/react-clone',
+    link: 'https://not-utube.web.app/',
+  },
+  {
+    name: 'Football App',
+    desc: 'O my goal replica where an user can keep an eye on his favorite club.This app will keep providing all the statistics of that club.all the fans can also chat',
+    github: 'https://github.com/TrojanDeveloper/football-app',
+    link: 'https://o-my-goal.web.app/',
   },
 ];
 
