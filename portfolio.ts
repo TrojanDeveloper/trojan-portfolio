@@ -302,7 +302,7 @@ export const seoData: SEODataType = {
     'A passionate Full Stack Web Developer and Blockchain Developer.',
   author: 'Trojan Developer',
   image: 'https://avatars3.githubusercontent.com/u/59178380?v=4',
-  url: 'https://trojandev.github.io',
+  url: 'https://trojan-portfolio.vercel.app',
   keywords: [
     'Trojan',
     'Trojan Developer',
