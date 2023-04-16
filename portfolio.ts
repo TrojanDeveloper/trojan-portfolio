@@ -212,7 +212,7 @@ export const educationInfo: EducationType[] = [
   {
     schoolName: 'Nanyang Technological University',
     subHeader: 'Master of Science in Computer Science',
-    duration: 'September 2017 - April 2019',
+    duration: 'September 2011 - April 2015',
     desc: 'Participated in the research of computer science and published 2 papers.',
     grade: 'Grade A',
     descBullets: [
