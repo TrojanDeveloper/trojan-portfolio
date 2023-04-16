@@ -37,7 +37,8 @@ const Navigation = ({ name }: GithubUserType) => {
           <Container>
             <NavbarBrand href="/" className="mr-lg-5">
               <h2 className="text-white" id="nav-title">
-                {name}
+                {/* {name} */}
+                Trojan Developer
               </h2>
             </NavbarBrand>
             <button
