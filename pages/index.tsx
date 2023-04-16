@@ -38,6 +38,7 @@ export async function getStaticProps() {
 
   return {
     props: { githubProfileData },
+    revalidate: 30,
   };
 }
 
